@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'mvn package'
+                bat 'C:/Users/ShriramSubramanian/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/apache-maven-3.5.4/bin/mvn package'
             }
         }
         stage('Deliver') {
